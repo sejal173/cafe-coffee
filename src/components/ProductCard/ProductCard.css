@@ -1,0 +1,26 @@
+.coffee-card-container{
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.main-product-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.product-title{
+    font-size:30px;
+    font-weight: bold;
+}
+.product-price{
+    font-size: 20px;
+}
+.coffe-imges{
+    height: 100px;
+    width: 200px;
+    align-self: center;
+    background-color: aqua;
+}
