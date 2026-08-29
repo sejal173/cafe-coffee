@@ -8,7 +8,8 @@ function OurServices(){
         <>
         <Navbar active="ourservices"/>
             <BodyContainer>
-               <PageTitle subtitle="This is OurService "/>
+               <PageTitle title="“What We Offer” "/>
+               <PageTitle subtitle="From freshly brewed coffee to delicious food, we’re here to make every visit special."/>
 
                
             </BodyContainer>

@@ -3,3 +3,17 @@
     padding: 20px;
     color: #F1E2D1;
 }
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #3e2723;
+  color: white;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 8px 0;
+}
