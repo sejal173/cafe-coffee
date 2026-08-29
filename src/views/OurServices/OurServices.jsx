@@ -2,13 +2,15 @@ import "./OurServices.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BodyContainer from "../../components/BodyContainer/BodyContainer";
-
+import PageTitle from "../../components/PageTitle/PageTitle";
 function OurServices(){
     return(
         <>
         <Navbar active="ourservices"/>
             <BodyContainer>
-                <h1>This is OurService code</h1>
+               <PageTitle subtitle="This is OurService "/>
+
+               
             </BodyContainer>
              <Footer/>
         </>

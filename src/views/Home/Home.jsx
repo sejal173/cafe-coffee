@@ -3,38 +3,36 @@ import Footer from "../../components/Footer/Footer";
 import BodyContainer from "../../components/BodyContainer/BodyContainer";
 import Navbar from "../../components/Navbar/Navbar";
 import About from "../About/About";
-import { PRODUCTS } from "../../config";
+import  PRODUCTS  from "../../config";
+
+import PageTitle from "../../components/PageTitle/PageTitle";
 import ProductCard from "../../components/ProductCard/ProductCard";
 
+function Home() {
+  return (
+    <>
+      <Navbar active="home" />
+      <BodyContainer>
+        <PageTitle title="Welcome to Coffee House" />
+        <PageTitle subtitle="Welcome to our coffee shop, where great coffee and good moments come together. We are passionate about serving freshly brewed coffee, delicious snacks, and sweet treats in a warm and comfortable environment." />
 
+            <h1 className="selection-menu-heading">😋 Our Delicious Selection</h1>
+          <div className="product-main-container">
+            {
+            PRODUCTS.map((product) => {
+              return(
+                <ProductCard product={product} key={product.id}/>
+              )
+            })
+          }
+          </div>
 
-
-function Home(){
-    return(
-        <>
-            
-            <Navbar active="home"/>
-            <BodyContainer>
-               <h1>Welcome to Coffee House</h1>
-               <p>Enjoy the perfect cup of coffee made with fresh beans and lots of love. Whether you love a strong espresso, creamy cappuccino, or a refreshing cold coffee, we have something for everyone.</p>
-
-               
-
-               <h2>Our Specialties</h2>
-               <div className="main-product-card-container">
-              {
-                PRODUCTS.map((product) => {
-                   return  <ProductCard product={product}
-            key={product.id}
-            />
-                })
-             }
-           </div>
-          
-            </BodyContainer>
-             <Footer/>
-        </>
-    )
+       
+       
+      </BodyContainer>
+      <Footer />
+    </>
+  );
 }
 
 export default Home;

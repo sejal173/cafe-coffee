@@ -1,3 +1,4 @@
+import { icons } from "lucide-react";
 import IMG1 from "./assets/coffee1.jpg";
 import IMG2 from "./assets/coffee2.jpg";
 import IMG3 from "./assets/coffee3.jpg";
@@ -6,6 +7,7 @@ import IMG4 from "./assets/coffee4.jpg";
 
 
 const PRODUCTS = [
+
     {
         id:1,
         title:"Cappuccino",
@@ -18,14 +20,14 @@ const PRODUCTS = [
         title:"Cold Coffee",
         price:"$189",
         description:"Chilled and refreshing coffee blended with milk and ice.",
-         image:IMG2
+         image:IMG4
     },
     {
         id:3,
         title:"Mocha",
         price:"$464",
         description:"Delicious combination of espresso, chocolate, and steamed milk",
-         image:IMG3
+         image:IMG1
     },
     {
         id:4,
@@ -46,7 +48,7 @@ const PRODUCTS = [
         title:"Classic Latte",
         price:"$678",
         description:"Strong and bold freshly brewed espresso for coffee lovers.",
-         image:IMG3
+         image:IMG4
     },
     {
         id:7,
@@ -62,6 +64,8 @@ const PRODUCTS = [
         description:"Smooth coffee infused with delicious roasted hazelnut flavor.",
          image:IMG1
     },
-]
+];
 
-export {PRODUCTS};
+
+
+export  default PRODUCTS;

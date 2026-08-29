@@ -1,0 +1,10 @@
+.main-containt-container{
+    border: 2px solid black;
+    padding: 30px;
+    height: 300px;
+    width: 600px;
+   margin-left: 500px;
+   color: rgb(129, 11, 56);
+   font-size: 20px;
+   font-weight: 800;
+}
