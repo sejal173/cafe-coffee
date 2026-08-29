@@ -8,3 +8,15 @@
    font-size: 20px;
    font-weight: 800;
 }
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   /* background-color: blueviolet; */
+}
+.story-content{
+    /* background-color: aquamarine; */
+    padding: 60px;
+    font-size: 20px;
+    color:  rgb(84, 26, 26);
+}
